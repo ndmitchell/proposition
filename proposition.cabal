@@ -15,4 +15,6 @@ Exposed-modules:
 		Data.Proposition.Formula
 		Data.Proposition.Internal
 		Data.Proposition.Simple
-Extra-Source-Files: Test.hs
+Extra-Source-Files:
+		Test.hs
+		Sample.hs
