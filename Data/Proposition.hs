@@ -93,9 +93,9 @@
 
     And we can also test whether a proposition is True or False:
     
-    > Main> propIsTrue (prop  :: BDD Char)
+    > Main> propIsTrue (prop :: BDD Char)
     > False
-    > Main> propIsFalse (prop  :: BDD Char)
+    > Main> propIsFalse (prop :: BDD Char)
     > False
 
     There are lots of other operations of propositions, but these are the most common.
