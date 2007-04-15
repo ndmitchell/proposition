@@ -1,0 +1,18 @@
+Name:           proposition
+Version:        0.1
+License:        BSD3
+Author:         Neil Mitchell
+Homepage:       http://www-users.cs.york.ac.uk/~ndm/proposition/
+Category:       Data
+Build-Depends:  base
+Synopsis:       Library for manipulating propositions.
+Exposed-modules:
+		Data.Proposition
+		Data.Proposition.All
+		Data.Proposition.BDD
+		Data.Proposition.Char
+		Data.Proposition.Fix
+		Data.Proposition.Formula
+		Data.Proposition.Internal
+		Data.Proposition.Simple
+Extra-Source-Files: Test.hs
