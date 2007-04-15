@@ -1,3 +1,12 @@
+{-|
+    Propositions based on Binary Decision Diagrams
+    <http://en.wikipedia.org/wiki/Binary_decision_diagram>
+    with no sharing. Equality is fast and accurate. Primarily uses
+    the '?=>' simplification method from 'PropLit'.
+    
+    Reading the @Show@ output is not particularly easy. A better idea is to convert
+    to a normal formula first.
+-}
 
 module Data.Proposition.BDD(BDD, propRebuildBDD) where
 

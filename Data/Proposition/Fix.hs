@@ -1,3 +1,10 @@
+{-|
+    This proposition instance is basically 'Formula', but equality is
+    done on 'BDD' with:
+    
+    > a == b = f a == f b
+    >     where f = propSimplify . propRebuildBDD . propSimplify
+-}
 
 module Data.Proposition.Fix(PropFix, propRebuildFix) where
 

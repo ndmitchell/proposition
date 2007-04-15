@@ -1,3 +1,9 @@
+{-|
+    This is probably the standard instance, it has reasonable simplification
+    and has a nice output for understanding. It does not perform any factorisation
+    or expansion - as there is no real way to know if it would succeed or not
+    and therefore might leave the result larger.
+-}
 
 module Data.Proposition.Formula(Formula, propRebuildFormula) where
 

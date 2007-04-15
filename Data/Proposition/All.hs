@@ -1,4 +1,9 @@
-
+{-|
+    Proposition based on 'PropSimple', 'Formula' and 'BDD' at the same time.
+    The operations 'propIsTrue' and 'propIsFalse' are designed to crash if they
+    disagree. Mainly useful for testing.
+-}
+    
 module Data.Proposition.All(PropAll(..)) where
 
 import Data.Proposition.Internal
