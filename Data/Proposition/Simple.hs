@@ -1,7 +1,8 @@
 {-|
     Proposition that focuses on being correct,
-    and working as a test harness/comparison
-    function
+    and working as a test harness for comparisons.
+    
+    Some basic simplifications are performed, such as @True || x = x@.
 -}
 
 module Data.Proposition.Simple(PropSimple, propRebuildSimple) where
