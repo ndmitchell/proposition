@@ -4,7 +4,7 @@ License:        BSD3
 Author:         Neil Mitchell
 Homepage:       http://www-users.cs.york.ac.uk/~ndm/proposition/
 Category:       Data
-Build-Depends:  base
+Build-Depends:  base, mtl
 Synopsis:       Library for manipulating propositions.
 Exposed-modules:
 		Data.Proposition
